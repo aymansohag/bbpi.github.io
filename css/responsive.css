@@ -1,0 +1,742 @@
+/*		Default Layout: 1100px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+.header{
+	width: 100%;
+	height: 25%;
+}
+.width{
+	width: 1100px;
+}
+img{
+    width: 100%;
+	margin: 0 auto;
+}
+.selectnav{display: none}
+/*		laptop Layout: 992px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 992px) and (max-width: 1099px) {
+    .width{
+        width: 95%;
+    }
+	.leftheader img{
+        margin-left: 14px;
+    }
+    .rightheader button{
+        margin-left: 42px;
+        width: 132px;
+    }
+    .inheader h1 {
+        font-size: 229%;
+        line-height: 145%;
+    }
+    .inheader h3 {
+        font-size: 171%;
+        line-height: 54px;
+    }
+    .animation {
+        width: 100%;
+        height: 47px;
+    }
+    .animation h1 {
+        padding: 10px;
+        font-size: 23px;
+    }
+    @keyframes animation{
+        from{left: 0%}
+        to{left: 60%}
+    
+    }
+    .menu li a {
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+    .mainmenu{
+        min-height: 50px;
+    }
+    .pmassage, .rc_row3, .rc_row2 {
+        margin: 11px 10px;
+    }
+    .galary img {
+        width: 199px;
+    }
+    .pmassage img {
+        margin-left: 24%;
+    }
+    .information h1 {
+        font-size: 23px;
+    }
+    @keyframes joy{
+        from{left: 0px}
+        to{left: 63%}
+    
+    }
+	.iimg i {
+        font-size: 83px;
+    }
+    .fotterwidth{
+        min-height: 363px;
+        width: 88%;
+    }
+    .f_cl1{
+        width: 43%;
+    }
+    .f_cl1 h2{font-size: 21px;}
+    @keyframes folow{
+        from{left: 0%}
+        to{left: 33%}
+    
+    }
+}
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.leftheader img {
+        width: 120px;
+        margin-left: 11px;
+        margin-top: 16px;
+    }
+    @keyframes danimation{
+        from{left: 0%}
+        to{left: 39%}
+    
+    }
+    .danimation h1 {
+        font-size: 23px;
+    }
+    .dmenu ul li a {
+        padding: 12px 7px;
+        font-size: 14px;
+    }
+    .dmenu{
+        height: 44px;
+    }
+    .p_img img {
+        width: 320px;
+        height: 234px;
+    }
+   .p_about_1 h1, .p_about_1 h2 {
+        margin: 11px;
+        color: black;
+        font-size: 21px;
+   }
+    .p_h1 {
+        font-size: 26px;
+    }
+    .aboutbbpi img {
+        width: 424px;
+        height: 234px;
+        margin-left: 13%;
+    }
+    .aboutbbpi h1 {
+        font-size: 24px;
+    }  
+    .submaincontent {
+        width: 94%;
+    }  
+    .width{
+        width: 95%;
+    }
+    .inheader h1 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .inheader h2 {
+        font-size: 29px;
+    }
+    .inheader h3 {
+        font-size: 24px;
+    }
+    .rightheader button {
+        margin-left: 0px;
+        margin-top: 71px;
+        height: 34px;
+        width: 107px;
+        font-size: 21px;
+    }
+    .animation{height: 42px;}
+    .animation h1 {
+        padding: 7px;
+        font-size: 21px;
+    }
+    @keyframes animation{
+        from{left: 0%}
+        to{left: 60%}
+    }
+    .selectnav{
+        display: block;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+    }
+    .mainmenu ul{display: none}
+    .mainmenu{min-height: 40px;}
+    .pmassage, .rc_row3, .rc_row2 {
+        margin: 10px 10px;
+    }
+    .pmassage img {
+        width: 253px;
+        margin-left: 68px;
+    }
+    .galary img {
+        padding: 5px;
+        width: 358px;
+    }
+    .information h1{
+        font-size: 22px;
+    }
+    @keyframes joy{
+        from{left: 0px}
+        to{left: 58%}
+    
+    }
+    .iimg i{
+        font-size: 30px;
+    }
+    .iimg h2 {
+        font-size: 16px;
+    }
+    .f_cl1 h1 {
+        font-size: 19px;
+    }
+    .f_cl1 h2 {
+        font-size: 19px;
+        line-height: 29px;
+    }
+    @keyframes folow{
+        from{left: 0px}
+        to{left: 33%}
+    
+    }
+    .f_cl1 {
+        margin: 20px;
+    }
+    .f-cl2 li {
+        font-size: 20px;
+    }
+    .f-cl2 {
+        width: 27%;
+        height: 260px;
+        margin: 17px 0 0 0;
+
+    }
+    .fotterwidth{
+        height: 274px;
+    }
+    .ccl1 p {
+        margin: 22px 7px;
+        font-size: 15px;
+    }
+    .ccl2 h1 {
+        padding-top: 4px;
+        font-size: 23px;
+    }
+    .copy {
+        height: 75px;
+    }
+    .fotter{height: 376px;}
+}
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 479px) {
+	.width{
+        width: 95%;
+    }
+.rtable {
+    font-size: 15px;
+}
+    .selectnav{
+        display: block;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+    }
+     .p_img img {
+        width: 270px;
+        height: 141px;
+    }
+    .p_about_1 h1, .p_about_1 h2 {
+        margin: 15px;
+        font-size: 22px;
+    }
+    .p_h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .td {
+        padding-left: 15px;
+        font-size: 17px;
+    }
+    .p_form {
+        width: 96%;
+        min-height: 497px;
+    }
+    input[type="text"], [type="number"], [type="email"], [type="date"] {
+      height: 5px;
+        margin: 13px;
+        width: 202px;
+        padding: 9px;
+    }
+    textarea {
+        width: 220px;
+    }   
+    .principal {
+        min-height: 982px;
+    }
+    .dmenu {
+        height: 31px;
+        width: 288px;
+    }
+    .dmenu ul li a {
+        padding: 5px 2px;
+        font-size: 10px;
+    }
+    .p_h1 {
+        font-size: 15px;
+    }
+    .button {
+        height: 39px;
+        width: 227px;
+        margin-left: 30%;
+    }
+    .aboutbbpi img {
+        width: 200px;
+        height: 172px;
+        margin-left: 13%;
+    }  
+    .aboutbbpi h1 {
+        margin: 4px;
+        font-size: 16px;
+    }  
+    .submaincontent {
+        width: 94%;
+    }
+    .mainmenu ul{display: none}
+    .leftheader img {
+        width: 90%;
+        margin-left: 9px;
+    }
+    .inheader h1 {
+        font-size: 149%;
+        line-height: 103%;
+    }
+    .inheader h2 {
+        font-size: 136%;
+        line-height: 120%;
+    }
+    .inheader h3 {
+        font-size: 99%;
+        line-height: 200%;
+        color: #2a3f22;
+    }
+    .rightheader button {
+        margin-left: 3px;
+        margin-top: 56%;
+        height: 29px;
+        width: 79%;
+        font-size: 13px
+    }
+    @keyframes animation{
+        from{left: 11%}
+        to{left: 11%}
+    }
+    .animation h1 {
+        font-size: 15px;
+    }
+    .slider{
+        display:none;
+    }
+    .animation {
+        height: 39px;
+        margin-top: 4px;
+    
+    }
+    .animation h1 {
+        padding: 8px;
+    }
+    .mainmenu {
+        min-height: 35px;
+   }
+   .leftcontent {
+        float: none;
+        width: 100%;
+   }
+   .galary img {
+        padding: 2px;
+        width: 100%;
+        height: 208px;
+   }
+   .rightcontent {
+        float: none;
+        width: 100%;
+    }
+    .pmassage img {
+        width: 187px;
+        margin-left: 66px;
+    }
+    .lc_row2 h1, .lc_row3 h1, .rc_row3 h1 {
+        padding: 10px;
+        font-size: 26px;
+    }
+    .inf {
+        height: 38px;
+    }
+    .information h1 {
+        font-size: 100%;
+        padding: 7px;
+    }
+    @keyframes joy{
+        from{left: 10%}
+        to{left: 10%} 
+    }
+    .information {
+        margin: 30px 6%;
+    }
+    .iimg h2 {
+        font-size: 19px;
+    }
+    .f_cl1 {
+        margin: 5px;
+        width: 40%;
+        border-right:none;
+        border-radius: none;
+    }
+    .f_cl1 h1 {
+        font-size: 93%;
+        line-height: 18px;
+        border-bottom: none;
+        margin-top: 10px;
+    }
+    .f_cl1 h2 {
+        font-size: 11px;
+        line-height: 14px;
+        border-bottom: none;
+        display: inline-block;
+        font-weight: none;
+    }
+    @keyframes folow {
+        0% {
+            left: 0px;
+        }
+        100% {
+            left: 0;
+        }
+    }
+    .f-cl2 {
+        width: 30%;
+        border-right: none;
+        margin: 10px 0 0 0;
+    }
+    .f-cl2 li {
+        font-size: 14px;
+        color: wheat;
+        border-bottom: none;
+        line-height: 21px;
+    }   
+    .f-cl3 {
+        margin: 6px 0 0 0;
+        padding-left: 9px;
+    } 
+    .f-cl3 li {
+        line-height: 22px;
+        font-size: 16px
+    }
+    .fotterwidth {
+        height: 195px;
+    }
+    .ccl1 p {
+        margin: 5px 7px;
+        font-size: 10px;
+    }
+    .fotter {
+        height: 20px;
+        height: 300px;
+    }
+    .ccl2 h1 {
+        padding-top: 0px;
+        padding-right: 33px;
+        font-size: 14px;
+        text-align: center;
+    }
+    @keyframes danimation {
+        0% {
+            left: 0%;
+        }
+        100% {
+            left: 0%;
+        }
+    }
+    .danimation h1{font-size: 15px}
+	
+}
+
+@media only screen and (min-width: 400px) and (max-width: 472px) {
+    .iimg i {
+        font-size: 28px;
+    }
+    .iimg h2 {
+        font-size: 16px;
+    }
+}
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .width{
+        width: 95%;
+    }
+    .selectnav{
+        display: block;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+    }
+    .danimation {
+        height: 41px;
+    }
+    .danimation h1 {
+        padding: 10px;
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .p_img img {
+        width: 326px;
+        height: 141px;
+    }
+    .p_form {
+        width: 96%;
+        min-height: 497px;
+    }
+    input[type="text"], [type="number"], [type="email"], [type="date"] {
+        height: 11px;
+        margin: 13px;
+        width: 220px;
+        padding: 10px;
+    }
+    textarea {
+        width: 220px;
+    }   
+    .principal {
+        min-height: 982px;
+    }
+    .dmenu ul li a {
+        padding: 5px 9px;
+        font-size: 12px;
+    }
+    .dmenu {
+        width: 381px;
+        height: 31px;;
+    } 
+    .p_h1 {
+        font-size: 15px;
+    }
+    .button {
+        height: 39px;
+        width: 244px;
+    }
+    .aboutbbpi img {
+        width: 324px;
+        height: 172px;
+        margin-left: 13%;
+    }  
+    .aboutbbpi h1 {
+        margin: 4px;
+        font-size: 16px;
+    }  
+    .submaincontent {
+        width: 94%;
+    }
+    .mainmenu ul{display: none}
+    .leftheader img {
+        width: 90%;
+        margin-left: 9px;
+    }
+    .inheader h1 {
+        font-size: 149%;
+        line-height: 103%;
+    }
+    .inheader h2 {
+        font-size: 136%;
+        line-height: 120%;
+    }
+    .inheader h3 {
+        font-size: 99%;
+        line-height: 200%;
+        color: #2a3f22;
+    }
+    .rightheader button {
+        margin-left: 3px;
+        margin-top: 56%;
+        height: 29px;
+        width: 79%;
+        font-size: 17px
+    }
+    @keyframes animation{
+        from{left: 0%}
+        to{left: 48%}
+    }
+    .animation h1 {
+        font-size: 20px;
+    }
+    .slider{
+        display:none;
+    }
+    .animation {
+        height: 39px;
+        margin-top: 4px;
+    
+    }
+    .animation h1 {
+        padding: 8px;
+    }
+    .mainmenu {
+        min-height: 35px;
+   }
+   .leftcontent {
+        float: none;
+        width: 100%;
+   }
+   .galary img {
+        padding: 5px;
+        width: 100%;
+        height: 208px;
+   }
+   .rightcontent {
+        float: none;
+        width: 100%;
+    }
+    .pmassage img {
+        width: 241px;
+        margin-left: 96px;
+    
+    }
+    .inf {
+        height: 38px;
+    }
+    .information h1 {
+        font-size: 126%;
+        padding: 7px;
+    }
+    @keyframes joy{
+        from{left: 0%}
+        to{left: 30%} 
+    }
+    .iimg i {
+        font-size: 67px;
+    }
+    .iimg h2 {
+        font-size: 19px;
+    }
+    .f_cl1 {
+        margin: 5px;
+        width: 40%;
+        border-right:none;
+        border-radius: none;
+    }
+    .f_cl1 h1 {
+        font-size: 93%;
+        line-height: 18px;
+        border-bottom: none;
+        margin-top: 10px;
+    }
+    .f_cl1 h2 {
+        font-size: 11px;
+        line-height: 14px;
+        border-bottom: none;
+        display: inline-block;
+        font-weight: none;
+    }
+    @keyframes folow {
+        0% {
+            left: 0px;
+        }
+        100% {
+            left: 0;
+        }
+    }
+    .f-cl2 {
+        width: 30%;
+        border-right: none;
+        margin: 10px 0 0 0;
+    }
+    .f-cl2 li {
+        font-size: 14px;
+        color: wheat;
+        border-bottom: none;
+        line-height: 21px;
+    }   
+    .f-cl3 {
+        margin: 6px 0 0 0;
+        padding-left: 15px;
+    } 
+    .f-cl3 li {
+        line-height: 22px;
+        font-size: 16px
+    }
+    .fotterwidth {
+        height: 174px;
+    }
+    .ccl1 p {
+        margin: 5px 7px;
+        font-size: 10px;
+    }
+    .ccl2 h1 {
+        padding-top: 1px;
+        padding-right: 33px;
+        font-size: 21px;
+    }
+    .fotter {
+        height: 20px;
+        height: 300px;
+    }
+
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+}
